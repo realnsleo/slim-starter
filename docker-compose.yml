@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+  slim-starter:
+    image: realnsleo/slim-starter:dev
+    build: ./docker/dev
+    restart: always
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www
+    networks:
+      - default
+networks:
+  default:
+    external:
+      name: hostnet
