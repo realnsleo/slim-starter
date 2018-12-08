@@ -1,16 +1,18 @@
 {
-  "name": "roundbob/rb-api",
-  "description": "RoundBob base API",
+  "name": "realnsleo/slim-starter",
+  "description": "A Slim framework starter skeleton with PHP-Di integration and Docker Compose.",
   "keywords": [
-    "roundbob"
+    "slim",
+    "psr7",
+    "php-di",
+    "framework"
   ],
-  "homepage": "http://github.com/slimphp/Slim-Skeleton",
+  "homepage": "http://github.com/realnsleo/slim-skeleton",
   "license": "MIT",
   "authors": [
     {
       "name": "Arnold Babasa",
-      "email": "realnsleo@gmail.com",
-      "homepage": "https://roundbob.com"
+      "email": "realnsleo@gmail.com"
     }
   ],
   "require": {
