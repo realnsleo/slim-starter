@@ -40,6 +40,16 @@ http://localhost:8080/api/movies
 http://localhost:8080/api/movies/1
 ```
 
+### No composer?
+
+If you don't want to have composer installed in your machine, I have included a different Dockerfile that can be found in `./docker/dev/No-Composer-Dockerfile`. Simply copy the 
+Dockerfile in that directory and replace the one in the parent directory.
+
+Once this is done, you can run `docker-compose up` or if you have already ran it before, simply shut down the previous services using `docker-compose down` and then run 
+`docker-compose
+ up --build` and wait for the services to boot up.
+
+
 ## Deployment
 
 If you need a way to deploy this project for example to AWS Fargate, Kubernetes etc, let me know.
@@ -47,3 +57,6 @@ If you need a way to deploy this project for example to AWS Fargate, Kubernetes 
 ## License
 
 Anyone is free to use and modify this code as they see fit :)
+
+## Misc
+For any issues, please let me know so I can fix them. I will keep improving this boilerplate. Let me know which features you would like me to add. Thanks!
