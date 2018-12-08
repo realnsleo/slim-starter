@@ -1,4 +1,4 @@
-create table articles (
+create table movies (
 	id INT,
 	title VARCHAR(100),
 	description TEXT,
